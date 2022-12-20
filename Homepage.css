@@ -4,6 +4,7 @@ html {
 
 }
 
+
 a {
     width:10%;
     text-align: center;
@@ -82,13 +83,19 @@ text-align: center;
     color: #2654ec;
 }
 
+
+
+
+
+
+
 .styled-tabletop {
     border-collapse: collapse;
-    margin: 24px 0;
+    margin: 12px 2px 22px 22px;
     font-size: 0.9em;
     font-family: sans-serif;
         font-size: 17px;
-    min-width: 400px;
+    min-width: 300px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 .styled-tabletop thead tr {
@@ -97,9 +104,8 @@ text-align: center;
 
 }
 
-.styled-tabletop th,
-.styled-tabletop td {
-    padding: 13px 132px 10px 15px;
+.styled-tabletop th, .styled-tabletop td {
+    padding: 12px 2px 11px 16px;
 }
 
 .styled-tabletop tbody tr {
