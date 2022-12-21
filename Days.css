@@ -72,14 +72,16 @@ a:visited {
  width: 0% 50%;
 
   }
+
+#withtoggle{
+  text-align: left;
+ width: 0% 50%;
+
+  }
 pre{
   
   text-align: left;
  width: 0% 50%;
-  }
-
-  #withtoggle {
-    display: inline;
   }
   
   @media only screen and (max-device-width: 680px) {
