@@ -49,19 +49,67 @@ input:checked + div {
 }
 
 hr.solid {
-  border: 2px solid #6c0e7b;
+  border: 1px solid #965c9f;
+    border-top: 2px solid #40004a;
+    border-bottom: 2px solid #7e2a8b;
+
 }
 
-
 @media only screen and (max-device-width: 680px) {
-  html {
-    width: 100%;
-      background-color: black;
-       color: #00ff00;
-       font-family: Consolas,"courier new";
-   padding: 20px;
-  margin:  -30px 20px 10px -5px;
-        font-size: 14px;
-  
-  }
+  body {
+    background-color: black;
+    color: lime;
+    font-family: Consolas,"courier new";
+    font-size: 18px;
+}
+
+a {
+    text-align: center;
+    color: #2654ec;
+}
+
+a:link {
+  text-decoration: dotted;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+            color: #9087b2;
+
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #233026;
+  border: 2px solid #2f4d55;
+  display: block;
+  padding: 15px;
+  font-size: 14px;
+}
+
+input:checked + div { 
+  display: none; 
+}
+
+#codetext{
+  background-color: #233026;
+  border: 2px solid #2f4d55;
+  display: block;
+  padding: 5px 11px 11px 11px;
+  font-size: 14px;
+}
+
+hr.solid {
+  border: 1px solid #965c9f;
+    border-top: 2px solid #40004a;
+    border-bottom: 2px solid #7e2a8b;
+
+}
 }
