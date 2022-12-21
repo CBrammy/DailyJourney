@@ -48,6 +48,10 @@ input:checked + div {
   font-size: 14px;
 }
 
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
 @media only screen and (max-device-width: 680px) {
   html {
     width: 100%;
