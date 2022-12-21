@@ -2,7 +2,6 @@ html {
     background-color: black;
      color: #00ff00;
      font-family: Consolas,"courier new";
-     font-size: 18px;
  }
  
  
@@ -37,6 +36,7 @@ html {
  text-align: center;
      
  }
+ 
  .styled-table {
  
      border-collapse: collapse;
@@ -98,7 +98,7 @@ html {
      border-collapse: collapse;
      margin: 12px 2px 22px 22px;
      font-size: 0.9em;
-     font-family: sans-serif;
+     font-family: Consolas,"courier new";
          font-size: 17px;
      min-width: 300px;
      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
