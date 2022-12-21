@@ -11,6 +11,46 @@
 <a href="https://cbrammy.github.io/DailyJourney/Homepage.html"> Home </a>
 <p>21/12/2022 </p>
 <p>Did the first day of Advent Of Code - <a href="https://adventofcode.com/2022/day/1"> here</a></p>
+    <code> 
+    import java.io.BufferedReader;
+import java.io.FileReader;
+
+
+public class Main {
+
+	public static void main(String[] args) throws Exception{
+		// TODO Auto-generated method stub
+// Each item on a line
+// each elves inventory divided by blank line
+		
+
+BufferedReader br = new BufferedReader(new FileReader("src/sample.txt"));
+
+
+int calorie = 0;
+int mostCalories = 0;
+String line;
+
+while ((line = br.readLine()) != null){
+     String cal = line.trim();
+     if (cal.isBlank()) {
+    	 if (mostCalories < calorie) {
+    		 mostCalories = calorie;
+    	 }
+    	 calorie = 0;
+    	 continue;
+     }
+     calorie += Integer.parseInt(cal);
+ }
+if (mostCalories < calorie) {
+	 mostCalories = calorie;
+	 }
+	 
+System.out.print(mostCalories);
+
+}
+}
+    </code>
 <p>Venturing into other languages, currently I have been working solely with Java, SQL, HTML, CSS.</p>
 </body>
 </html>
