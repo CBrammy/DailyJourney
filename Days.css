@@ -12,80 +12,81 @@ button {
   margin: 0px 4px 4px 120px;
 }
 
-#home {
-  color: #6c0e7b;
-}
+#Home {
+  color: #25dfda;
+   padding:600px;
 
+  }
+ 
 a {
-  text-align: center;
-  color: #2654ec;
-}
-
+    text-align: center;
+    color: #2654ec;
+  }
+  
 a:link {
-text-decoration: dotted;
-}
-
+  text-decoration: dotted;
+  }
+  
 a:visited {
-text-decoration: none;
-}
-
-a:hover {
-text-decoration: underline;
-          color: #9087b2;
-
-}
-
-a:active {
-text-decoration: underline;
-}
-
-code {
-background-color: #233026;
-border: 2px solid #2f4d55;
-display: block;
-padding: 10px 0px 0px 10px;
-font-size: 14px;
-width: 800px;
-}
-
-input:checked + div { 
-display: none; 
-}
-
-#codetext{
-background-color: #233026;
-border: 2px solid #2f4d55;
-display: block;
-padding: 5px 11px 11px 11px;
-font-size: 14px;
-
-}
-
-hr.solid {
-border: 2px solid #6c0e7b;
-
-}
-
-hr{
-width: 1000px;
-text-align: left;
-
-}
-p{
-width: 1000px;
-text-align: left;
-  padding: 2px 0px 12px 120px;
-}
-
-@media only screen and (max-device-width: 680px) {
-html {
-  width: 100%;
-    background-color: black;
-     color: #00ff00;
-     font-family: Consolas,"courier new";
- padding: 20px;
-margin:  -30px 20px 10px -5px;
-      font-size: 14px;
-
-}
-}
+  text-decoration: none;
+  }
+  
+  a:hover {
+  text-decoration: underline;
+            color: #9087b2;
+  
+  }
+  
+  a:active {
+  text-decoration: underline;
+  }
+  
+  code {
+  background-color: #233026;
+  border: 2px solid #2f4d55;
+  display: block;
+  padding: 10px 0px 0px 10px;
+  font-size: 14px;
+  width: 800px;
+  }
+  
+  input:checked + div { 
+  display: none; 
+  }
+  
+  #codetext{
+  background-color: #233026;
+  border: 2px solid #2f4d55;
+  display: block;
+  padding: 5px 11px 11px 11px;
+  font-size: 14px;
+  
+  }
+  
+  hr.solid {
+  border: 2px solid #6c0e7b;
+  
+  }
+  
+  hr{
+  width: 1200px;
+  text-align: left;
+  
+  }
+  p{
+  width: 1200px;
+  text-align: left;
+  }
+  
+  @media only screen and (max-device-width: 680px) {
+  html {
+    width: 100%;
+      background-color: black;
+       color: #00ff00;
+       font-family: Consolas,"courier new";
+   padding: 20px;
+  margin:  -30px 20px 10px -5px;
+        font-size: 14px;
+  
+  }
+  }
