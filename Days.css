@@ -54,6 +54,7 @@ a:visited {
   font-size: 14px;
    text-align: left;
  width: 0% 50%;
+ 
   }
   
   input:checked + div { 
@@ -86,6 +87,7 @@ pre{
   text-align: left;
  width: 0% 50%;
   }
+
   
   @media only screen and (max-device-width: 680px) {
   html {
