@@ -2,7 +2,9 @@ html {
     background-color: black;
      color: #00ff00;
      font-family: Consolas,"courier new";
- }
+ padding: 20px;
+margin:  -30px 20px 10px -5px;
+}
  
  
  a {
@@ -44,7 +46,8 @@ html {
      font-size: 0.9em;
      font-family: Consolas,"courier new";
          font-size: 17px;
-     min-width: 400px;
+     min-width: 100px;
+      max-width: 1200px;
      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
  }
  .styled-table thead tr {
@@ -60,7 +63,7 @@ html {
  
  .styled-table th,
  .styled-table td {
-     padding: 13px 132px 10px 15px;
+     padding: 13px 55px 10px 15px;
  }
  
  .styled-table tbody tr {
