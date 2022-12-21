@@ -33,4 +33,42 @@ code {
   border: 2px solid #2f4d55;
   display: block;
   padding: 15px;
+  font-size: 14px;
+}
+
+input:checked + div { 
+  display: none; 
+}
+
+#hashLink {
+  display: none;
+}
+
+#hashLink:target {
+  display: block;
+}
+
+#hashLinkHide {
+  display: none;
+}
+
+#codetext{
+  background-color: #233026;
+  border: 2px solid #2f4d55;
+  display: block;
+  padding: 5px 11px 11px 11px;
+  font-size: 14px;
+}
+
+@media only screen and (max-device-width: 680px) {
+  html {
+    width: 100%;
+      background-color: black;
+       color: #00ff00;
+       font-family: Consolas,"courier new";
+   padding: 20px;
+  margin:  -30px 20px 10px -5px;
+        font-size: 14px;
+  
+  }
 }
