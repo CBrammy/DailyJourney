@@ -49,7 +49,7 @@ input:checked + div {
 }
 
 hr.solid {
-  border-top: 3px solid #bbb;
+  border-top: 3px solid #a000b9;
 }
 
 @media only screen and (max-device-width: 680px) {
