@@ -7,6 +7,14 @@ padding: 20px 0px 0px 52px;
     text-align: left;
 
 }
+button {
+  padding: 4px 4px 4px 4px;
+  margin: 0px 4px 4px 120px;
+}
+
+#home {
+  color: #6c0e7b;
+}
 
 a {
   text-align: center;
@@ -67,7 +75,6 @@ p{
 width: 1000px;
 text-align: left;
   padding: 2px 0px 12px 120px;
-
 }
 
 @media only screen and (max-device-width: 680px) {
