@@ -3,10 +3,10 @@ body {
   color: lime;
   font-family: Consolas,"courier new";
   font-size: 18px;
-padding: 20px 0px 0px 200px;
+padding: 20px 0px 0px 20px;
     text-align: center;
- width: 100%;
-
+ width: 1000px;
+ 
 }
 button {
   padding: 4px 4px 4px 4px;
@@ -16,6 +16,7 @@ button {
   color: #25dfda;
   text-align: center;
   }
+
 h1, h3, h2 {
   color: #5bd2e8;
  width: 0% 50%;
@@ -70,12 +71,14 @@ a:visited {
   p{
   text-align: left;
  width: 0% 50%;
+ word-wrap: normal;
 
   }
 
 #withtoggle{
   text-align: left;
  width: 0% 50%;
+ 
 
   }
 pre{
