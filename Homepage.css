@@ -140,7 +140,7 @@ margin:  -30px 20px 10px -5px;
      color: #1bf4be;
  }
 
- @media only screen and (max-device-width: 480px) {
+ @media only screen and (max-device-width: 680px) {
 html{
     background-color: yellow;
 
