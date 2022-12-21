@@ -40,18 +40,6 @@ input:checked + div {
   display: none; 
 }
 
-#hashLink {
-  display: none;
-}
-
-#hashLink:target {
-  display: block;
-}
-
-#hashLinkHide {
-  display: none;
-}
-
 #codetext{
   background-color: #233026;
   border: 2px solid #2f4d55;
