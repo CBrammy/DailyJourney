@@ -45,39 +45,33 @@ a:visited {
   }
   
   code {
-  background-color: #233026;
+  background-color: #131d15;
   border: 2px solid #2f4d55;
   display: block;
-  padding: 10px 0px 0px 10px;
+  padding: 10px 0px 0px 0px;
   font-size: 14px;
-  width: 800px;
+  width: 750px;
   }
   
   input:checked + div { 
   display: none; 
   }
   
-  #codetext{
-  background-color: #233026;
-  border: 2px solid #2f4d55;
-  display: block;
-  padding: 5px 11px 11px 11px;
-  font-size: 14px;
-  
-  }
   
   hr.solid {
   border: 2px solid #6c0e7b;
-  
+  max-width: 1200px; 
+  margin-left:0;
   }
   
-  hr{
-  width: 100%;
-  text-align: left;
-  
-  }
+
   p{
   width: 1200px;
+  text-align: left;
+  padding: 10px 0px 0px 60px;
+
+  }
+pre{
   text-align: left;
   padding: 10px 0px 0px 60px;
 
