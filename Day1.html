@@ -18,6 +18,66 @@ Answer to Day 1: <a href="https://raw.githubusercontent.com/CBrammy/AdventOfCode
 <p>Venturing into other languages, currently I have been working solely with Java, SQL, HTML, CSS.</p>
 
 <p>Did an hour or so of Front-end with React on CodeAcademy- <a href="https://www.codecademy.com/learn/paths/build-web-apps-with-react"> here</a></p>
-
+ 
+<p>
+    Basically doing an intro to JavaScript and making a rock paper scissors game
+</p>
+<pre>
+    
+    <code>
+        const getUserChoice = (userInput) => {
+            userInput = userInput.toLowerCase();
+            if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors' ) {
+              return userInput
+            } else {
+              console.log('Error!');
+            }
+            }
+            
+            const getComputerChoice = () => {
+             var val = Math.floor(Math.random() * 3);
+             if (val === 0){
+               return 'rock'
+             } else if (val === 1) {
+               return 'paper'
+             } else {
+               return 'scissors'
+             }
+            }
+            
+            const determineWinner = (userChoice, getComputerChoice) => {
+            if (userChoice === getComputerChoice) {
+             console.log("It's a tie :( ")
+            } else if (userChoice === 'rock'){
+              if (getComputerChoice === 'paper'){
+              console.log("Player loses")
+              } else if (getComputerChoice === 'scissors'){
+              console.log("Player wins!")
+              } 
+            } else if (userChoice === 'scissors'){
+              if (getComputerChoice === 'rock'){
+              console.log("Player loses")
+              } else if (getComputerChoice === 'paper'){
+              console.log("Player wins!")
+              }
+            } else if (userChoice === 'paper'){
+              if (getComputerChoice === 'scissors'){
+              console.log("Player loses")
+              } else if (getComputerChoice === 'rock'){
+              console.log("Player wins!")
+              }
+            }
+            }
+            
+            const playGame = () => {
+              var userChoice = getUserChoice('rock')
+              var computerChoice = getComputerChoice()
+            console.log(`Users: ${userChoice} \n    VS \r\nComputers: ${computerChoice}`)
+            determineWinner(userChoice, computerChoice)
+            }
+            
+            playGame()
+    </code>
+</pre>
 </body>
 </html>
