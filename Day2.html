@@ -10,106 +10,20 @@
 
 
 
-    <title>Day1</title>
+    <title>Day2</title>
 </head>
 <body>
 <a id="Home" href="https://cbrammy.github.io/DailyJourney/Homepage.html"> Home </a>
-<h2>21/12/2022 </h2>
+<h2>22/12/2022 </h2>
+<h2>Free day!</h2>
 <hr class="solid">
+<p> Used today to take care of chores, did washing/cleaning, made my bed (ready for hibernation)</p>
+<p> Started playing IdleOn! on steam </p>
+<p> Contacted uni for masters project information and got given a backdoor to their masters workspace. 
+  Downloaded all the examples and created a notion page to store the information.
+I still need to decide what I'm doing, but I also have time on my side.  </p>
+<p> Will keep updated. </p>
 
-<p>Did the first day of Advent Of Code - <a href="https://adventofcode.com/2022/day/1"> here</a></p>
-<p>Answer to Day 1: <a href="https://raw.githubusercontent.com/CBrammy/AdventOfCode/main/Day%201?token=GHSAT0AAAAAAB4IBIIG2I5EK7ZZGHFVO4ZCY5DDXMA"> here</a></p>
-<hr class="solid">
-
-<p>Venturing into other languages, currently I have been working solely with Java, SQL, HTML, CSS.</p>
-
-<p>Did an hour or so of Front-end with React on CodeAcademy- <a href="https://www.codecademy.com/learn/paths/build-web-apps-with-react"> here</a></p>
-<p id="withtoggle">
-    Basically did an intro to JavaScript and making a rock paper scissors game
-    <button onclick="myFunction()">Show / Hide </button>
-</p>
-<div id="myDIV" style="display: none">
-<pre>
-    
-    <code>
-        const getUserChoice = (userInput) => {
-            userInput = userInput.toLowerCase();
-            if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors' ) {
-              return userInput
-            } else {
-              console.log('Error!');
-            }
-            }
-            
-            const getComputerChoice = () => {
-             var val = Math.floor(Math.random() * 3);
-             if (val === 0){
-               return 'rock'
-             } else if (val === 1) {
-               return 'paper'
-             } else {
-               return 'scissors'
-             }
-            }
-            
-            const determineWinner = (userChoice, getComputerChoice) => {
-            if (userChoice === getComputerChoice) {
-             console.log("It's a tie :( ")
-            } else if (userChoice === 'rock'){
-              if (getComputerChoice === 'paper'){
-              console.log("Player loses")
-              } else if (getComputerChoice === 'scissors'){
-              console.log("Player wins!")
-              } 
-            } else if (userChoice === 'scissors'){
-              if (getComputerChoice === 'rock'){
-              console.log("Player loses")
-              } else if (getComputerChoice === 'paper'){
-              console.log("Player wins!")
-              }
-            } else if (userChoice === 'paper'){
-              if (getComputerChoice === 'scissors'){
-              console.log("Player loses")
-              } else if (getComputerChoice === 'rock'){
-              console.log("Player wins!")
-              }
-            }
-            }
-            
-            const playGame = () => {
-              var userChoice = getUserChoice('rock')
-              var computerChoice = getComputerChoice()
-            console.log(`Users: ${userChoice} \n    VS \r\nComputers: ${computerChoice}`)
-            determineWinner(userChoice, computerChoice)
-            }
-            
-            playGame()
-    </code>
-</pre>
-</div>
-
-<p id="withtoggle">
-Messed about with arrays, javascript array methods are pretty cool <button onclick="myFunction2()">Show / Hide </button>
-</p>
-<div id="myDIV2" style="display: none">
-<pre>
-  <code>
-         let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get', 'easily', 'the', 'first', 'time,', 
-          'it', 'is', 'about', 'what', 'you', 'can', 'figure', 'out.', '-2015,', 'Chris', 'Pine,', 'Learn', 'JavaScript'];
-
-          secretMessage.pop()
-          console.log(secretMessage.length)
-          secretMessage.push('to', 'Program')
-          secretMessage[7] = 'right'
-          secretMessage.shift()
-          secretMessage.unshift('Programming')
-          secretMessage.splice(6, 11, 'know,');
-          console.log(secretMessage.join(' '));
-  </code>
-</pre>
-</div>
-
-<p> Covered: Variables, Conditionals, Functions, Arrays</p>
 <hr class="solid">
 
 </body>
