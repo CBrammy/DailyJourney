@@ -28,7 +28,7 @@ function myFunction() {
   let frameX = 0;
   let frameY = 0;
   let gameFrame = 0;
-  const staggerFrames = 5;
+  const staggerFrames = 6;
 
   function animate(){
     ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
