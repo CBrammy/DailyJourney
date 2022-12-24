@@ -22,7 +22,7 @@ function myFunction() {
   const CANVAS_HEIGHT = canvas.height = 600;
 
   const playerImage = new Image();
-  playerImage.src = 'https://raw.githubusercontent.com/CBrammy/DailyJourney/main/BrunoWithStars.png';
+  playerImage.src = 'https://raw.githubusercontent.com/CBrammy/DailyJourney/main/Pictures/BrunoWithStars.png';
   const spriteWidth = 600;
   const spriteHeight = 600;
   let frameX = 0;
