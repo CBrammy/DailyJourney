@@ -22,21 +22,24 @@
 
  <p>Got through some JavaScript on CodeAcademy</p>
  <p>Still making syntax mistakes in JS because you don't have to declare variables or semicolon to end sentences like Java.</p>
+ <p>Looked at loops </p>
  <p id="withtoggle">
-    Looked at loops (Nested loops and iterating through arrays)   <button onclick="myFunction()">Show / Hide </button>
+    Here is a nested array finding mutual followers in both arrays   <button onclick="myFunction()">Show / Hide </button>
 </p>
 <div id="myDIV" style="display: none">
 <pre>
     <code>
-        const myArray = [6, 19, 20];
-        const yourArray = [19, 81, 2];
-        for (let i = 0; i < myArray.length; i++) {
-          for (let j = 0; j < yourArray.length; j++) {
-            if (myArray[i] === yourArray[j]) {
-              console.log('Both arrays have the number: ' + yourArray[j]);
-            }
+      const bobsFollowers = ["Bob","Robert","Robby","Bobby"];
+      const tinasFollowers  = ["Robert","Rabby","Bobby"];
+      const mutualFollowers  = [];
+      
+      for (var i = 0; i < bobsFollowers.length; i++){
+        for (var j = 0; j < tinasFollowers.length; j++){
+          if (bobsFollowers[i] === tinasFollowers[j]){
+            mutualFollowers.push(tinasFollowers[j])
           }
         }
+      }
     </code>
 </pre>
 </div>
