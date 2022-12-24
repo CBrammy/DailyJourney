@@ -43,6 +43,37 @@
     </code>
 </pre>
 </div>
+
+<p id="withtoggle">
+  Had to write a WhaleSpeak script that takes a phrase and takes the vowels, doubling 'e' and 'u' <button onclick="myFunction2()">Show / Hide </button>
+  </p>
+  <div id="myDIV2" style="display: none">
+  <pre>
+    <code>
+      let input = 'Whalespeak example umbrella'
+      const vowels = ['a','e','i','o','u']
+      let resultArray = []
+      let resultString = []
+      
+      for (let i = 0; i < input.length; i++ ){
+        for (let j = 0; j < vowels.length; j++){
+          if (input[i] === vowels[j]){
+            if (vowels[j] === 'u'){
+              resultArray.push(vowels[j])
+            }
+             if (vowels[j] === 'e'){
+              resultArray.push(vowels[j])
+            }
+          resultArray.push(vowels[j])
+      
+      resultString = resultArray.join("")
+          }
+        }
+      }
+      console.log(resultString.toUpperCase())
+    </code>
+  </pre>
+  </div>
  <hr class="solid">
 
  <p>Prepping still for Boxing Day, when I'll just go full force into the Networking assignment prep</p>
