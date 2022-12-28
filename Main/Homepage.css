@@ -5,7 +5,19 @@ html {
  padding: 20px;
 margin:  -30px 20px 10px -5px;
 }
- 
+
+#maintables{
+    display: flex;
+     flex-direction:row;
+       align-items: center;
+     justify-content: space-evenly;
+   }
+   
+   #maintables div {
+     width: 400px;
+     height: 400px;
+   }
+       
  
  a {
      width:10%;
