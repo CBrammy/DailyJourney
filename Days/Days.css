@@ -76,10 +76,10 @@ a:visited {
   
   
   hr.solid {
-  border: 2px solid #6c0e7b;
-  text-align: center;
-    margin-left:0;
-  }
+    border-style:none;
+   background-color:  #6c0e7b;
+    height: 2px
+   }
   
 
   p{
