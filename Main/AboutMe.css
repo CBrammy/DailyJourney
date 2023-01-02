@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: Consolas,"courier new";
+    font-size: 1.2em;
+    padding: 0% 23%;
+    text-align: center;
+    width: 50%;
+  }
+  
+  #Home {
+    color: #25dfda;
+    text-align: center;
+    }
+
+    hr.solid {
+    border: 2px solid #6c0e7b;
+    text-align: center;
+      margin-left:0;
+    }
+    
+  
+    p{
+    text-align: left;
+   width: 0% 23%;
+        word-wrap: break-word;
+  
+   word-wrap: normal;
+  
+    }
