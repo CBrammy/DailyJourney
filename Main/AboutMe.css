@@ -1,22 +1,29 @@
 body {
-    background-color: black;
-    color: lime;
-    font-family: Consolas,"courier new";
-    font-size: 1.2em;
+  background-color: #bee2d8;
+  color: #010201;
+  font-family: Consolas,"courier new";
+  font-size: 1.2em;
+}
+
+#Home {
+  color: #25dfda;
   }
-  
-  #Home {
-    color: #25dfda;
-    }
 
-    hr.solid {
-    border: 2px solid #6c0e7b;
-      margin-left:0;
-    }
-    
-  
-    p{
-    word-wrap: break-word;
 
-  
-    }
+
+  p{
+  word-wrap: break-word;
+
+
+  }
+
+hr {
+border-top: 1px dotted #000000;
+border-bottom: none;
+ border-left: none;
+border-right: none;
+width: 5%;
+height: 20px;
+  border-width: 8px;
+
+}
