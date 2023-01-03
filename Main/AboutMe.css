@@ -31,3 +31,9 @@ height: 20px;
 .aboutmenav {
   font-family: 'Montserrat', sans-serif;
 }
+
+.skills-container {
+ text-align: center;
+ width: auto;
+ padding: 0px 25%;
+}
