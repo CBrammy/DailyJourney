@@ -47,3 +47,11 @@ table {
    display: inline-block;
  margin: 0px 0px 0px 250px;
 }
+
+#skills-table1{
+  background: red;
+ }
+ 
+ #skills-table2{
+  background: blue;
+ }
