@@ -3,6 +3,7 @@ body {
   color: #010201;
   font-family: Consolas,"courier new";
   font-size: 1.2em;
+ width: auto;
 }
 
 #Home {
@@ -22,9 +23,17 @@ border-top: 1px dotted #000000;
 border-bottom: none;
  border-left: none;
 border-right: none;
-width: 5%;
+width: 60px;
 height: 20px;
-  border-width: 8px;
+ border-width: 8px;
+text-align: left;
+    display: inline-block;
+ margin: 0px 0px 0px 550px;
+
+}
+
+table {
+ margin: 0px 0px 0px 0px;
 
 }
 
@@ -34,6 +43,7 @@ height: 20px;
 
 .skills-container {
  text-align: center;
- width: auto;
- padding: 0px 25%;
+ width: inherit;
+   display: inline-block;
+ margin: 0px 0px 0px 250px;
 }
